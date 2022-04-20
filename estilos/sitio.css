@@ -56,6 +56,7 @@ p{
 .logo{
     background-color: transparent;
     display: flex;
+    padding: 1rem;
 }
 .logo img{
     height:8rem; 
@@ -65,7 +66,7 @@ p{
     background-color: #353A40;
     color: #fff;
     align-self: center;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .navegacion{
@@ -107,7 +108,7 @@ p{
      /* display: flex;*/
       text-align: right;
       letter-spacing: 0.2rem;
-      margin-top: -7rem;
+      /* margin-top: -7rem; */
   }
   .header img{
       width: 100%;
@@ -172,7 +173,7 @@ p{
   }
   p{
     text-align: center;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
   }
   span{
       text-decoration: underline dotted;
@@ -252,10 +253,10 @@ p{
   .twoColumns{
       display: flex;
       border: 1px solid black;
-      padding: 2px;
+      padding: 1px;
   }
   .twoColumns img{
-      margin: 2px;
+      margin: 1px;
       width: 50%;
   }
   .mitad{
@@ -263,20 +264,31 @@ p{
       background-color: rgb(52, 53, 53);
       /* width: 50%; */
       border: 1px solid black;
-      /* padding: 5px; */
-      margin: 2px;
+      padding: 1.5rem;
+      margin: 1px;
     }
   .mitad h3{
-      color: #d8dff2;
+      color: #fff;
       text-align: left;
-      padding: 1rem;
-      margin: 0.5rem;
+      /* padding: 0 1rem ; */
+      margin: 0 0.5rem;
   }
   .mitad p{
     background-color: rgb(52, 53, 53);
     color: #fff;
-    padding: 1rem;
+    /* padding: 1rem; */
+    margin: 0 0.5rem;
     text-align: left;
+    line-height: 2.7rem;
+  }
+  .mitad button{
+    background-color: rgb(52, 53, 53);
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    margin: 1.5rem 0.5rem; 
+    border: 1px solid white;
+    font-size: 1.5rem;
   }
   .formulario{
       padding: 1rem;
